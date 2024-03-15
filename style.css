@@ -1,0 +1,117 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.header-class{
+  position: absolute;
+  top: 110px;
+  left: 620px;
+  color:maroon;
+  font-size:15px;
+  font-style:italic;
+  letter-spacing: 0.2.5em;
+  text-shadow: 2px 2px black;
+}
+
+h1{
+  color:maroon;
+}
+
+h2{
+  text-align: center;
+  font-style: italic;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  color: green
+
+}
+
+#p1-class{
+  font-family: Georgia, Helvetica, sans-serif;
+  font-size: larger;
+  line-height: 1.3;
+  border: 1px solid green;
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  background-color: #B6CCA6;
+  font-weight:normal;
+  color:black;
+}
+
+.p2-class{
+font-family: Georgia, Arial, Helvetica, sans-serif;
+font-size: larger;
+line-height: 1.3;
+border: 1px solid ;
+margin-top: 15px;
+padding-top: 15px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+background-color: #B6CCA6;
+font-weight:normal;
+color:black;
+}
+
+.p3-class{
+font-family: Georgia, Arial, Helvetica, sans-serif;
+font-size: larger;
+line-height: 1.3;
+border: 1px solid ;
+margin-top: 15px;
+padding-top: 15px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+background-color: #FCF2A8;
+font-weight:normal;
+color:black;
+}
+
+.p4-class{
+  text-align: center;
+  color:#D34318;
+  font-size:xx-large;
+  font-style: bold;
+  font-style:italic;
+}
+
+.p5-class{
+  font-family: Georgia, Arial, Helvetica, sans-serif;
+  font-size: larger;
+  line-height: 1.3;
+  border: 6px solid black;
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  background-color: #B6CCA6;
+  font-weight:normal;
+  color:black;
+}
+
+span{
+  color:maroon;
+  font-size:large;
+  font-style: bold;
+  font-style:italic;
+}
+
+li{
+  color:maroon;
+  font-size:large;
+  font-style: bold;
+  font-style:italic;
+  font-size: larger;
+  border: 1px solid black;
+  line-height: 1.5;
+  background-color: #F2EFBF;
+  font-weight: semi bold;
+}
