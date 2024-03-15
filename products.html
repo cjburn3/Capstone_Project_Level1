@@ -7,6 +7,49 @@
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+</style>
 </head>
 
 <body>
@@ -17,17 +60,130 @@
       <a class="navbar-brand" href="./contact.html">Contact</a>
   </nav>
 
-  <div class="card" style="width: 18rem;">
-    <img src="./images/Dry_Tortugas.png" class="card-img-top" alt="A National Park ">
-    <div class="card-body">
-      <h5 class="card-title">Dry Tortugas National Park</h5>
-      <p class="card-text">A National Park and a national treasure.</p>
-      <a href="https://www.drytortugas.com" class="btn btn-primary">Click Here for more Information</a>
+
+  <div class="row row-cols-3 g-3">
+    <div class="col">
+      <div class="card">
+        <img src="./Mugs/WhiteWolfMug.png" class="card-img-top"
+          alt="White Wolf Mug" />
+        <div class="card-body">
+          <h5 class="card-title">Ebros Celtic Direwolf Ghost White Wolf Mug  $24.95</h5>
+          <p class="card-text">
+            This Direwolf Ghost White Wolf mug is made of high quality resin, individually hand painted and polished. They are also designed with a stainless steel liner on the rim. Color Tone May vary from pictures. Handwash only.
+          </p>
+          <button id="btn2">Order</button>
+          <ol></ol>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./Mugs/BrownWolfMug.png" class="card-img-top"
+          alt="Brown Wolf Mug" />
+        <div class="card-body">
+          <h5 class="card-title">Stainless Steel Wolf Mug  $24.95</h5>
+          <p class="card-text">
+            High Quality Material Wolf Mug: Stainless Steel Wolf Mug made of Resin and Stainless steel material with creative 3D realistic wolf head design, full of mystery and vintage feeling.
+          </p>
+          <button id="btn2">Order</button>
+          <ol></ol>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./Mugs/WolfHowlingMug.png" class="card-img-top"
+          alt="Wolf Howling Mug" />
+        <div class="card-body">
+          <h5 class="card-title">Howling Wolf Mug  $19.95</h5>
+          <p class="card-text">Howling Wolf mug, Wolf Outline Painted With white bark, Gift For Wolf Lovers, Birch Bark, 11 Oz White Ceramic Coffee Cup.</p>
+          <button id="btn2">Order</button>
+          <ol></ol>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./Mugs/BlackHowlingMug.png" class="card-img-top"
+          alt="Skyscrapers" />
+        <div class="card-body">
+          <h5 class="card-title">Howling Wolf (Silhouette) on Mug  $19.95</h5>
+          <p class="card-text">This fully-insulated porcelain mug is ideal for your morning brew. Cream and sugar not included..
+          </p>
+          <button id="btn2">Order</button>
+          <ol></ol>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./Mugs/WolfDrawingMug.png" class="card-img-top"
+          alt="Crazy Wolf" />
+        <div class="card-body">
+          <h5 class="card-title">Wolf Mug  $12.95</h5>
+          <p class="card-text">Crazy Wolf Studio Wolf Mug.
+          </p>
+          <button id="btn2">Order</button>
+          <ol></ol>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./Mugs/TribalWolfMug.png" class="card-img-top"
+          alt="Tribal Wolf" />
+        <div class="card-body">
+          <h5 class="card-title">Tribal Wolf Mug  $19.95</h5>
+          <p class="card-text">Tribal Wolf Tattoo Design Ornament Front & Back Coffee Mug.
+          </p>
+          <button id="btn2">Order</button>
+          <ol></ol>
+        </div>
+      </div>
+    </div>
+  <div class="col">
+      <div class="card">
+        <img src="./Mugs/HeSheWolfMug.png" class="card-img-top"
+          alt="Hollywood Sign on The Hill" />
+        <div class="card-body">
+          <h5 class="card-title">Wolf Mug, Farmhouse Style Handmade Pottery  $45.95</h5>
+          <p class="card-text">Peeking through the forest ferns and cedar branches is a clever wolf. Celebrate the loyalty of your pack by sharing this handmade wolf mug with them.
+          </p>
+          <button id="btn2">Order</button>
+          <ol></ol>
+        </div>
+      </div>
+    </div>
+  <div class="col">
+      <div class="card">
+        <img src="./Mugs/RunWithWolfMug.png" class="card-img-top"
+          alt="Run with the wolf" />
+        <div class="card-body">
+          <h5 class="card-title">Run with the wolf 15oz mug  $13.95</h5>
+          <p class="card-text">
+            For those that run with the wolf this high quality 15oz. ceramic mug has a premium hard coat that provides crisp and vibrant reproduction of the detailed artwork.
+          </p>
+          <button id="btn2">Order</button>
+          <ol></ol>
+        </div>
+      </div>
+    </div>
+  <div class="col">
+      <div class="card">
+        <img src="./Mugs/RedWolfMug.png" class="card-img-top"
+          alt="RedWolfMug" />
+        <div class="card-body">
+          <h5 class="card-title">Red mug with wolf pattern  $24.95</h5>
+          <p class="card-text">
+            If you are a wild nature lover, this wolf mug will be a great decor or a functional mug for you! With a detailed design based on red, this wolf vividly stands out to show the wisdom and instinct of the wolf.
+          </p>
+          <button id="btn2">Order</button>
+          <ol></ol>
+        </div>
+      </div>
     </div>
   </div>
-
-
-
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="products.js"></script>
 </body>
