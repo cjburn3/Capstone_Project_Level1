@@ -32,8 +32,6 @@ let productData = [
   }
 ]
 
-
-// let myBtn = document.querySelector("btn");
 function displayCards(arr){
 
   let cardsLocation = document.getElementById("mugs")
@@ -47,8 +45,7 @@ function displayCards(arr){
       <button class="btn" onClick="purchaseOrder(${i})"><strong>Order<strong></button>
       </div>
       </div> `
-    
-   cardsLocation.innerHTML += newHTML
+    cardsLocation.innerHTML += newHTML;
   }
 }
 displayCards(productData)
@@ -60,21 +57,4 @@ function purchaseOrder (idx){
   productData[idx].Quantity += 1
   console.log(productData[idx].Quantity);
 }
-
-// purchaseOrder(productData);
-
-
-
-// let orderListed = document.querySelector("ol");
-
-// let buttonTwo = document.getElementById("btn2");
-// buttonTwo.addEventListener("click", () => {
-//   for (let i = 0; i < Wolf.length; i++){
-//     let newOrderList = document.createElement("li");
-//     newOrderList.innerText = Wolf[i];
-//     console.log(newOrderList);
-//     orderListed.appendChild(newOrderList);
-//   }
-// })
-
 
