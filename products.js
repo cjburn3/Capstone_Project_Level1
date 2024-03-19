@@ -37,13 +37,15 @@ function displayCards(arr){
   let cardsLocation = document.getElementById("mugs")
   for (let i = 0; i < productData.length; i++){
     console.log(arr[i]);
-    let newHTML = `<div id="mugs" class="col-md-4 mt-2"">
-      <div class="card" style="width: 18rem;">
-      <img src="${arr[i].Image}" class="card-img-top img-fluid" alt="Wolf"">
-      <div class="card-body">
+    let newHTML = `<div class="container">
+        <div id="mugs" class="col-md-4 mt-2"">
+          <div class="card" style="width: 18rem;">
+            <img src="${arr[i].Image}" class="card-img-top img-fluid" alt="Wolf"">
+          <div class="card-body">
       <h5 class="card-title">${arr[i].Title}</h5>
       <p class="card-text">${arr[i].Description} <strong>Purchased<strong>: ${arr[i].Quantity}</p>
       <button class="btn" onClick="purchaseOrder(${i})"><strong>Order<strong></button>
+      </div>
       </div>
       </div>
       </div> `
