@@ -1,5 +1,11 @@
+const buttonOne = document.querySelector(".btn");
 const buttonThreePblack = document.getElementById("btn3");
 const buttonFourPblue = document.getElementById("btn4");
+
+buttonOne.addEventListener("click", () => {
+  let clickButton1 = document.querySelector(".p6-class");
+    clickButton1.textContent = "";
+})
 
 buttonThreePblack.addEventListener("click", () => {
     let clickButton = document.querySelector(".div-class");

@@ -4,13 +4,13 @@ html {
 }
 
 .header-class{
-  top: 110px;
-  left: 620px;
+  /* top: 110px;
+  left: 620px; */
   text-align: center;
   color:maroon;
   font-size:15px;
   font-style:italic;
-  letter-spacing: 0.2.5em;
+  letter-spacing: 0.2em;
   text-shadow: 2px 2px black;
 }
 
@@ -55,6 +55,17 @@ h4{
   font-size: larger;
 }
 .p2a-class{
+  text-align: center;
+  font-family: Georgia, Helvetica, sans-serif;
+  font-size: x-large;
+  font-style: italic;
+  color: green
+  font-size: larger;
+  background-color: #FCF2A8;
+  font-weight:normal;
+  color:black;
+}
+.p2b-class{
   text-align: center;
   font-family: Georgia, Helvetica, sans-serif;
   font-size: x-large;
@@ -132,6 +143,14 @@ color:black;
   background-color: #B6CCA6;
   font-weight:normal;
   color:black;
+}
+
+.p6-class{
+  font-family: Georgia, Arial, Helvetica, sans-serif;
+  color:blue;
+  font-size:larger;
+  font-style: bold;
+  font-style:italic;
 }
 
 span{
