@@ -39,25 +39,20 @@ function displayCards(arr){
   
   for (let i = 0; i < productData.length; i++){
     console.log(arr[i]);
-    
-//when the for loop first runs create a row
-//For the first row add the first 3 productData cards.
-//then continue this pattern every 3 cards.
-    //example modulus example.  100% 25 =0 because 100 can be evenly divided my 25.
-//first row will be i=0.  any other row after that will be increments of 3 later. 0,3,6,9.
-    // can do all this within this for loop. need something to account for each index.
 
-    let newHTML = `
-        <div id="mugs" class="col-md-4 mt-2">
-          <div class="card" style="width: 18rem;">
-            <img src="${arr[i].Image}" class="card-img-top img-fluid" alt="Wolf"">
-          <div class="card-body">
-      <h5 class="card-title">${arr[i].Title}</h5>
-      <p class="card-text">${arr[i].Description} <strong>Purchased<strong>: ${arr[i].Quantity}</p>
-      <button class="btn" onClick="purchaseOrder(${i})"><strong>Order<strong></button>
+    let newHTML =  `<div class="row row-cols-3 g-3">
+    <div class="col">
+      <div class="card">
+        <img src="${arr[i].Image}" class="card-img-top img-fluid" alt="Wolf"">
+        <div class="card-body">
+          <h5 class="card-title">${arr[i].Title}</h5>
+          <p class="card-text">${arr[i].Description} <strong>Purchased<strong>: ${arr[i].Quantity}</p>
+          <button class="btn" onClick="purchaseOrder(${i})"><strong>Order<strong></button>
+        </div>
       </div>
-      </div>
-      </div> `
+      >/div>
+    </div>`
+   
     cardsLocation.innerHTML += newHTML;
   }
 }
@@ -71,3 +66,11 @@ function purchaseOrder (idx){
   console.log(productData[idx].Quantity);
 }
 
+
+
+//when the for loop first runs create a row
+//For the first row add the first 3 productData cards.
+//then continue this pattern every 3 cards.
+    //example modulus example.  100% 25 =0 because 100 can be evenly divided my 25.
+//first row will be i=0.  any other row after that will be increments of 3 later. 0,3,6,9.
+    // can do all this within this for loop. need something to account for each index.
