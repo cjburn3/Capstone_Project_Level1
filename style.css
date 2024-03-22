@@ -153,6 +153,14 @@ color:black;
   font-style:italic;
 }
 
+.p7-class{
+  font-family: Georgia, Arial, Helvetica, sans-serif;
+  color:blue;
+  font-size:larger;
+  font-style: bold;
+  font-style:italic;
+}
+
 span{
   color:maroon;
   font-size:large;
@@ -166,6 +174,16 @@ span{
   font-style: bolder;
   font-style:italic;
   color: blue;
+  padding: 10px;
+}
+
+.btn5-class{
+  background-color: palegoldenrod;
+  font-size:large;
+  font-style: bolder;
+  font-style:italic;
+  color: blue;
+  margin-top: 15px;
   padding: 10px;
 }
 

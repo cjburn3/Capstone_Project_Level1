@@ -15,3 +15,8 @@ buttonFourPblue.addEventListener("click", () => {
     let clickButton = document.querySelector(".div-class");
      clickButton.style.color = "blue";
 })
+
+
+function changeColor() {
+  document.querySelector(".p8-class").style.color = 'green';
+}
