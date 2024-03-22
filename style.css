@@ -178,7 +178,7 @@ span{
 
 /* ---------------------------- */
 
-.column {
+/* .column {
   float: left;
   width: 25%;
   padding: 0 10px;
@@ -190,7 +190,7 @@ span{
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
