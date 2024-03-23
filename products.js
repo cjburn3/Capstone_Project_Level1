@@ -50,7 +50,7 @@ function displayCards(arr){
           <button class="btn" onClick="purchaseOrder(${i})"><strong>Order<strong></button>
         </div>
       </div>
-      >/div>
+      </div>
     </div>`
    
     cardsLocation.innerHTML += newHTML;
